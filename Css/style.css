@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    max-width: 1440px;
+    margin: 150px auto;
+    width: 800px;
+    background: hsla(0, 0%, 100%, 0.75);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/*Container Sedans*/
+.container-sedans{
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 30px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.container-sedans h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-sedans a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 40px;
+    color:hsl(31, 77%, 52%);
+    border-radius: 20px;
+    text-decoration: none;
+}
+/*Container Luxury*/
+.container-luxury{
+    background:  hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%);
+    padding: 30px;}
+
+.container-luxury h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-luxury a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 40px;
+    color:hsl(184, 100%, 22%);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/*Container Suvs*/
+.container-suvs{
+    background:  hsl(179, 100%, 13%);
+    color:  hsl(0, 0%, 95%);
+    padding: 30px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.container-suvs h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-suvs a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 40px;
+    color:hsl(179, 100%, 13%);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
